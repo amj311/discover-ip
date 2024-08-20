@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  server:
+    image: discover-ip
+    container_name: discover-ip
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: node index.js
+    ports:
+      - 3100:3000
+    
