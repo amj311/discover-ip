@@ -9,5 +9,5 @@ services:
       dockerfile: ./Dockerfile
     command: node index.js
     ports:
-      - 3100:3000
+      - 3000:3000
     
